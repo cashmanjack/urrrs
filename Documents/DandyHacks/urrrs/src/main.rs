@@ -1,4 +1,3 @@
-use bevy::asset::io::file;
 // //! This example illustrates how to create a button that changes color and text based on its
 // //! interaction state.
 /*
@@ -137,15 +136,6 @@ Video Analysis - Xu Chenliang
 
 Optimization - Liang Jiaming
 
-
-
-
-vec struct
-professor main page
-interest page
-paper1...10
-
-
 0 = main
 1 = Research Overview
 2 = Artificial Intelligence
@@ -158,22 +148,6 @@ use serde::{Deserialize, Serialize};
 use std::env;
 use std::fs::File;
 use std::io::BufReader;
-
-
-// #[derive(Debug, Deserialize)]
-// struct Author {
-//     first: String,
-//     last: String,
-// }
-
-// #[derive(Debug, Deserialize)]
-// struct Publication {
-//     author: Author,
-//     title: String,
-//     r#abstract: String,
-//     url: String,
-//     pub_year: i32,
-// }
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Professor {
