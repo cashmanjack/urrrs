@@ -1,0 +1,15 @@
+# Ignore build artifacts
+/target/
+
+# Ignore generated files
+*.rs.bk
+**/*.rs.bk
+
+# Ignore editor/IDE specific files
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Ignore other unnecessary files
+Cargo.lock
